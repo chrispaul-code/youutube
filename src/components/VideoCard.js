@@ -3,7 +3,6 @@ import React from 'react'
 const VideoCard = ({info}) => {
 
   if (!info || !info.snippet) return null;
-     console.log(info)
      const { snippet,statistics } = info;
      const {channelTitle,title,thumbnails}=snippet
   return (
@@ -16,6 +15,15 @@ const VideoCard = ({info}) => {
         </ul>
     </div>
   )
+}
+
+export const AdVideoCard=({info})=>{
+     return(
+      <div className='text-gray-400 '>
+        <h1 className='absolute justify-center text-red-600'  >Add</h1>
+        <VideoCard info={info}/>
+      </div>
+     )
 }
 
 export default VideoCard
