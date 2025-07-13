@@ -25,3 +25,6 @@ implimented youtube search suggestion api
 did debouncing 
 did chaching search results
 have to add comment section in next part
+
+learning about web socket , api pooling
+implemnted live comment section using api pooling in the youtube project 
