@@ -22,13 +22,15 @@ const Sidebar = () => {
         <li>Sports</li>
         <li>Gaming</li>
         <li>Movies</li>
+        <li>Trending</li>
+        <li>Shopping</li>
       </ul>
       <h1 className='font-bold pt-5'>Subscriptions</h1>
       <ul>
-        <li>Music</li>
-        <li>Sports</li>
-        <li>Gaming</li>
-        <li>Movies</li>
+        <li>Settings</li>
+        <li>Report history</li>
+        <li>Help</li>
+        <li>Send Feedback</li>
       </ul>
     </div>
   )
